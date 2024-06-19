@@ -130,7 +130,7 @@ router.use(express.urlencoded({ extended: false }));
 router.use(express.json());
 
 // express-validator의 추가
-router.use(expressValidator());
+// router.use(expressValidator());
 
 /**
  * =====================================================================
